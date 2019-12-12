@@ -1,0 +1,19 @@
+@import '../sassy';
+
+.navigation {
+
+    @include flex(column);
+    flex-basis: 20%; height: 100%;
+    max-width: 300px;
+
+    .header {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .menu {
+        @include flex(column);
+        padding: 1rem;
+    }
+
+}
