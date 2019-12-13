@@ -1,0 +1,19 @@
+{
+    "name": "server-dashboard",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "Micheal Pearce",
+    "license": "Apache 2.0",
+    "scripts": {
+        "start": "node -r esm package/app.js",
+        "watch": "nodemon -r esm package/app.js"
+    },
+    "dependencies": {
+        "apacheconf": "0.0.5",
+        "debug": "~2.6.9",
+        "esm": "^3.2.25",
+        "socket.io": "^2.3.0",
+        "systeminformation": "^4.15.3",
+        "underscore": "^1.9.1"
+    }
+}
